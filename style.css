@@ -1,0 +1,32 @@
+body{
+    background-color: greenyellow;
+
+}
+
+
+
+#show_sketch{
+    float: right;
+
+}
+
+#score{
+    float:left;
+    font-size: x-large;
+}
+
+#time{
+    float:right;
+    font-size: x-large;
+}
+
+canvas{ border:5px
+        dashed #f09235; 
+        border-radius: 25px; 
+        animation-name: glow;
+        animation-duration: 4s;
+        margin-top:50px; 
+        animation-iteration-count: infinite; }
+ @keyframes glow{ from{box-shadow: 10px 5px 5px #9b68f2;} 
+                  to{box-shadow: 10px 5px 5px #8ce6c2} }
+
